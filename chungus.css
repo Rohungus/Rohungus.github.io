@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#BIGCHUNGUS {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#chungus {
+    height: 600px;
+    width: 600px;
+}
+
+#chungocontainer {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chungocorner1 {
+    margin: 0;
+    padding: 0;
+    right: 23vw;
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    transform: rotate(60deg);
+    bottom: 43%;
+}
+
+#chungocorner2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    left: 23vw;
+    transform: rotate(-60deg);
+    bottom: 42%;
+}
+
+#chungocorner3 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    background-color: white;
+    bottom: 10vw;
+}
